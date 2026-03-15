@@ -2,8 +2,8 @@
 
 int main()
 {
-	char * name;
-	std::cout << "Enter your name: " ; std::cin >> name;
-	std::cout << "Hello world from " << name << endl;
+	char * name; // varible for user's name
+	std::cout << "Enter your name: " ; std::cin >> name; // initialising name
+	std::cout << "Hello world from " << name << endl; // output
 	return 0;
 }
